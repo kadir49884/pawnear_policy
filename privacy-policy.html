@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PawNear - Privacy Policy</title>
+    <title>PawNear - Gizlilik Politikası</title>
     <style>
         * {
             margin: 0;
@@ -93,240 +93,93 @@
         a:hover {
             text-decoration: underline;
         }
-        
-        .lang-switcher {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: white;
-            padding: 10px 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            cursor: pointer;
-            z-index: 1000;
-            font-weight: 600;
-        }
-        
-        .lang-switcher:hover {
-            background: #FFF8F0;
-        }
-        
-        [data-lang] {
-            display: none;
-        }
-        
-        [data-lang].active {
-            display: block;
-        }
     </style>
 </head>
 <body>
-    <div class="lang-switcher" onclick="toggleLanguage()">
-        🌐 <span id="currentLang">EN</span>
-    </div>
-    
     <div class="container">
-        <!-- ENGLISH VERSION -->
-        <div data-lang="en" class="active">
-            <div class="header">
-                <div class="logo">🐾 PawNear</div>
-                <h1>Privacy Policy</h1>
-                <p class="date">Last Updated: November 10, 2025</p>
-            </div>
-
-            <p>Thank you for using the PawNear app. Your privacy is important to us. This policy explains how your personal data is collected, used, and protected.</p>
-
-            <h2>1. Information We Collect</h2>
-            <p>The PawNear app collects the following information:</p>
-            <ul>
-                <li><strong>Account Information:</strong> Your name, email address, and profile photo when you sign in with Google</li>
-                <li><strong>Location Information:</strong> Approximate location for lost/found animal listings</li>
-                <li><strong>Photos:</strong> Animal photos you upload when creating listings</li>
-                <li><strong>Listing Content:</strong> Listing titles, descriptions, and comments you create</li>
-                <li><strong>Notification Token:</strong> Device token to send you notifications</li>
-            </ul>
-
-            <h2>2. How We Use Information</h2>
-            <p>Collected information is used for:</p>
-            <ul>
-                <li>Displaying lost/found animal listings</li>
-                <li>Enabling communication between users</li>
-                <li>Sending notifications about nearby listings</li>
-                <li>Providing breed detection feature (Google Gemini AI)</li>
-                <li>Ensuring app security</li>
-            </ul>
-
-            <h2>3. Information Sharing</h2>
-            <p>Your data is not shared with third parties. However, the app uses these services:</p>
-            <ul>
-                <li><strong>Firebase (Google):</strong> Authentication, Cloud Firestore, Storage</li>
-                <li><strong>Google Maps API:</strong> Location display</li>
-                <li><strong>Google Gemini AI:</strong> Breed detection</li>
-                <li><strong>Supabase:</strong> Photo storage</li>
-            </ul>
-            <p>These services have their own privacy policies.</p>
-
-            <h2>4. Data Security</h2>
-            <p>Your data is transmitted over encrypted connections and stored on secure servers. Firestore security rules prevent unauthorized access.</p>
-
-            <h2>5. User Rights</h2>
-            <p>You have the following rights:</p>
-            <ul>
-                <li>Delete your account and all your data</li>
-                <li>Edit/delete your listings</li>
-                <li>Delete your comments</li>
-                <li>Deny location permissions</li>
-                <li>Disable notifications</li>
-            </ul>
-
-            <h2>6. Children's Privacy</h2>
-            <p>Our app is not intended for children under 13. We do not knowingly collect data from children under 13.</p>
-
-            <h2>7. Location Data</h2>
-            <p>Your location information:</p>
-            <ul>
-                <li>Only used when creating listings</li>
-                <li>Approximate location (city/district level) is saved</li>
-                <li>Not tracked in the background</li>
-                <li>You can revoke location permission anytime</li>
-            </ul>
-
-            <h2>8. Cookies and Tracking</h2>
-            <p>The app does not use tracking/cookies except Firebase Analytics. Analytics data is collected anonymously.</p>
-
-            <h2>9. Changes</h2>
-            <p>This privacy policy may be updated. Significant changes will be notified within the app.</p>
-
-            <h2>10. Contact</h2>
-            <div class="contact">
-                <p>For privacy-related questions:</p>
-                <p><strong>Email:</strong> <a href="mailto:kadir49884@gmail.com">kadir49884@gmail.com</a></p>
-                <p><strong>Developer:</strong> Petrichor Software</p>
-            </div>
-
-            <hr style="margin: 30px 0; border: none; border-top: 1px solid #eee;">
-            
-            <p style="text-align: center; color: #757575; font-size: 14px;">
-                © 2025 PawNear - Help platform for stray animals
-            </p>
+        <div class="header">
+            <div class="logo">🐾 PawNear</div>
+            <h1>Gizlilik Politikası</h1>
+            <p class="date">Son Güncelleme: 10 Kasım 2025</p>
         </div>
 
-        <!-- TURKISH VERSION -->
-        <div data-lang="tr">
-            <div class="header">
-                <div class="logo">🐾 PawNear</div>
-                <h1>Gizlilik Politikası</h1>
-                <p class="date">Son Güncelleme: 10 Kasım 2025</p>
-            </div>
+        <p>PawNear uygulamasını kullandığınız için teşekkür ederiz. Gizliliğiniz bizim için önemlidir. Bu politika, kişisel verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.</p>
 
-            <p>PawNear uygulamasını kullandığınız için teşekkür ederiz. Gizliliğiniz bizim için önemlidir. Bu politika, kişisel verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.</p>
+        <h2>1. Toplanan Bilgiler</h2>
+        <p>PawNear uygulaması aşağıdaki bilgileri toplar:</p>
+        <ul>
+            <li><strong>Hesap Bilgileri:</strong> Google Sign-In ile giriş yaptığınızda adınız, e-posta adresiniz ve profil fotoğrafınız</li>
+            <li><strong>Konum Bilgileri:</strong> Kayıp/bulunan hayvan ilanları için yaklaşık konum bilgisi</li>
+            <li><strong>Fotoğraflar:</strong> İlan oluştururken yüklediğiniz hayvan fotoğrafları</li>
+            <li><strong>İlan İçeriği:</strong> Oluşturduğunuz ilan başlıkları, açıklamaları ve yorumlar</li>
+            <li><strong>Bildirim Token'ı:</strong> Size bildirim göndermek için cihaz token'ı</li>
+        </ul>
 
-            <h2>1. Toplanan Bilgiler</h2>
-            <p>PawNear uygulaması aşağıdaki bilgileri toplar:</p>
-            <ul>
-                <li><strong>Hesap Bilgileri:</strong> Google Sign-In ile giriş yaptığınızda adınız, e-posta adresiniz ve profil fotoğrafınız</li>
-                <li><strong>Konum Bilgileri:</strong> Kayıp/bulunan hayvan ilanları için yaklaşık konum bilgisi</li>
-                <li><strong>Fotoğraflar:</strong> İlan oluştururken yüklediğiniz hayvan fotoğrafları</li>
-                <li><strong>İlan İçeriği:</strong> Oluşturduğunuz ilan başlıkları, açıklamaları ve yorumlar</li>
-                <li><strong>Bildirim Token'ı:</strong> Size bildirim göndermek için cihaz token'ı</li>
-            </ul>
+        <h2>2. Bilgilerin Kullanımı</h2>
+        <p>Toplanan bilgiler şu amaçlarla kullanılır:</p>
+        <ul>
+            <li>Kayıp/bulunan hayvan ilanlarını göstermek</li>
+            <li>Kullanıcılar arasında iletişim sağlamak</li>
+            <li>Yakınınızdaki ilanlar için bildirim göndermek</li>
+            <li>Cins tespit özelliği sağlamak (Google Gemini AI)</li>
+            <li>Uygulama güvenliğini sağlamak</li>
+        </ul>
 
-            <h2>2. Bilgilerin Kullanımı</h2>
-            <p>Toplanan bilgiler şu amaçlarla kullanılır:</p>
-            <ul>
-                <li>Kayıp/bulunan hayvan ilanlarını göstermek</li>
-                <li>Kullanıcılar arasında iletişim sağlamak</li>
-                <li>Yakınınızdaki ilanlar için bildirim göndermek</li>
-                <li>Cins tespit özelliği sağlamak (Google Gemini AI)</li>
-                <li>Uygulama güvenliğini sağlamak</li>
-            </ul>
+        <h2>3. Bilgi Paylaşımı</h2>
+        <p>Verileriniz üçüncü taraflarla paylaşılmaz. Ancak uygulama şu hizmetleri kullanır:</p>
+        <ul>
+            <li><strong>Firebase (Google):</strong> Authentication, Cloud Firestore, Storage</li>
+            <li><strong>Google Maps API:</strong> Konum gösterimi</li>
+            <li><strong>Google Gemini AI:</strong> Cins tespit</li>
+            <li><strong>Supabase:</strong> Fotoğraf depolama</li>
+        </ul>
+        <p>Bu hizmetlerin kendi gizlilik politikaları geçerlidir.</p>
 
-            <h2>3. Bilgi Paylaşımı</h2>
-            <p>Verileriniz üçüncü taraflarla paylaşılmaz. Ancak uygulama şu hizmetleri kullanır:</p>
-            <ul>
-                <li><strong>Firebase (Google):</strong> Authentication, Cloud Firestore, Storage</li>
-                <li><strong>Google Maps API:</strong> Konum gösterimi</li>
-                <li><strong>Google Gemini AI:</strong> Cins tespit</li>
-                <li><strong>Supabase:</strong> Fotoğraf depolama</li>
-            </ul>
-            <p>Bu hizmetlerin kendi gizlilik politikaları geçerlidir.</p>
+        <h2>4. Veri Güvenliği</h2>
+        <p>Verileriniz şifreli bağlantılar üzerinden iletilir ve güvenli sunucularda saklanır. Firestore güvenlik kuralları ile yetkisiz erişim engellenir.</p>
 
-            <h2>4. Veri Güvenliği</h2>
-            <p>Verileriniz şifreli bağlantılar üzerinden iletilir ve güvenli sunucularda saklanır. Firestore güvenlik kuralları ile yetkisiz erişim engellenir.</p>
+        <h2>5. Kullanıcı Hakları</h2>
+        <p>Aşağıdaki haklara sahipsiniz:</p>
+        <ul>
+            <li>Hesabınızı ve tüm verilerinizi silme</li>
+            <li>Oluşturduğunuz ilanları düzenleme/silme</li>
+            <li>Yorumlarınızı silme</li>
+            <li>Konum izinlerini reddetme</li>
+            <li>Bildirimleri kapatma</li>
+        </ul>
 
-            <h2>5. Kullanıcı Hakları</h2>
-            <p>Aşağıdaki haklara sahipsiniz:</p>
-            <ul>
-                <li>Hesabınızı ve tüm verilerinizi silme</li>
-                <li>Oluşturduğunuz ilanları düzenleme/silme</li>
-                <li>Yorumlarınızı silme</li>
-                <li>Konum izinlerini reddetme</li>
-                <li>Bildirimleri kapatma</li>
-            </ul>
+        <h2>6. Çocukların Gizliliği</h2>
+        <p>Uygulamamız 13 yaşından küçük çocuklara yönelik değildir. Bilerek 13 yaşından küçük çocuklardan veri toplamıyoruz.</p>
+        <p><strong>Child Protection Policy:</strong> PawNear enforces a zero-tolerance policy against child abuse or exploitation and reports all user complaints to the relevant authorities.</p>
 
-            <h2>6. Çocukların Gizliliği</h2>
-            <p>Uygulamamız 13 yaşından küçük çocuklara yönelik değildir. Bilerek 13 yaşından küçük çocuklardan veri toplamıyoruz.</p>
+        <h2>7. Konum Verileri</h2>
+        <p>Konum bilginiz:</p>
+        <ul>
+            <li>Sadece ilan oluştururken kullanılır</li>
+            <li>Yaklaşık konum (şehir/ilçe düzeyinde) kaydedilir</li>
+            <li>Arka planda takip edilmez</li>
+            <li>İstediğiniz zaman konum iznini iptal edebilirsiniz</li>
+        </ul>
 
-            <h2>7. Konum Verileri</h2>
-            <p>Konum bilginiz:</p>
-            <ul>
-                <li>Sadece ilan oluştururken kullanılır</li>
-                <li>Yaklaşık konum (şehir/ilçe düzeyinde) kaydedilir</li>
-                <li>Arka planda takip edilmez</li>
-                <li>İstediğiniz zaman konum iznini iptal edebilirsiniz</li>
-            </ul>
+        <h2>8. Çerezler ve Takip</h2>
+        <p>Uygulama, Firebase Analytics dışında izleme/çerez kullanmaz. Analytics verileri anonim olarak toplanır.</p>
 
-            <h2>8. Çerezler ve Takip</h2>
-            <p>Uygulama, Firebase Analytics dışında izleme/çerez kullanmaz. Analytics verileri anonim olarak toplanır.</p>
+        <h2>9. Değişiklikler</h2>
+        <p>Bu gizlilik politikası güncellenebilir. Önemli değişiklikler uygulama içinde bildirilecektir.</p>
 
-            <h2>9. Değişiklikler</h2>
-            <p>Bu gizlilik politikası güncellenebilir. Önemli değişiklikler uygulama içinde bildirilecektir.</p>
-
-            <h2>10. İletişim</h2>
-            <div class="contact">
-                <p>Gizlilik ile ilgili sorularınız için:</p>
-                <p><strong>E-posta:</strong> <a href="mailto:kadir49884@gmail.com">kadir49884@gmail.com</a></p>
-                <p><strong>Geliştirici:</strong> Petrichor Software</p>
-            </div>
-
-            <hr style="margin: 30px 0; border: none; border-top: 1px solid #eee;">
-            
-            <p style="text-align: center; color: #757575; font-size: 14px;">
-                © 2025 PawNear - Sokak hayvanları için yardım platformu
-            </p>
+        <h2>10. İletişim</h2>
+        <div class="contact">
+            <p>Gizlilik ile ilgili sorularınız için:</p>
+            <p><strong>E-posta:</strong> <a href="mailto:kadir49884@gmail.com">kadir49884@gmail.com</a></p>
+            <p><strong>Geliştirici:</strong> Petrichor Software</p>
         </div>
+
+        <hr style="margin: 30px 0; border: none; border-top: 1px solid #eee;">
+        
+        <p style="text-align: center; color: #757575; font-size: 14px;">
+            © 2025 PawNear - Sokak hayvanları için yardım platformu
+        </p>
     </div>
-
-    <script>
-        // Tarayıcı dilini algıla ve otomatik olarak ayarla
-        let currentLang = 'en';
-        
-        function detectLanguage() {
-            const browserLang = navigator.language || navigator.userLanguage;
-            return browserLang.toLowerCase().startsWith('tr') ? 'tr' : 'en';
-        }
-        
-        function setLanguage(lang) {
-            currentLang = lang;
-            document.querySelectorAll('[data-lang]').forEach(el => {
-                el.classList.remove('active');
-            });
-            document.querySelector(`[data-lang="${lang}"]`).classList.add('active');
-            document.getElementById('currentLang').textContent = lang.toUpperCase();
-            document.documentElement.lang = lang;
-            document.title = lang === 'tr' ? 'PawNear - Gizlilik Politikası' : 'PawNear - Privacy Policy';
-        }
-        
-        function toggleLanguage() {
-            const newLang = currentLang === 'en' ? 'tr' : 'en';
-            setLanguage(newLang);
-        }
-        
-        // Sayfa yüklendiğinde tarayıcı dilini algıla
-        window.addEventListener('DOMContentLoaded', () => {
-            const detectedLang = detectLanguage();
-            setLanguage(detectedLang);
-        });
-    </script>
 </body>
 </html>
+
